@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class = "PatchOperationReplace">
+	<xpath>Defs/RitualOutcomeEffectDef[defName="Conversion"]/outcomeChances/li[label="Terrible"]/chance</xpath>
+	<value>
+		<chance>0.0</chance>
+	</value>
+</Operation>
+
+<Operation Class = "PatchOperationReplace">
+	<xpath>Defs/RitualOutcomeEffectDef[defName="Conversion"]/outcomeChances/li[label="Ineffective"]/chance</xpath>
+	<value>
+		<chance>0.0</chance>
+	</value>
+</Operation>
+
+<Operation Class = "PatchOperationReplace">
+	<xpath>Defs/RitualOutcomeEffectDef[defName="Conversion"]/outcomeChances/li[label="Effective"]/chance</xpath>
+	<value>
+		<chance>0.75</chance>
+	</value>
+</Operation>
+
+<Operation Class = "PatchOperationReplace">
+	<xpath>Defs/RitualOutcomeEffectDef[defName="Conversion"]/outcomeChances/li[label="Masterful"]/chance</xpath>
+	<value>
+		<chance>0.25</chance>
+	</value>
+</Operation>
+
+</Patch>

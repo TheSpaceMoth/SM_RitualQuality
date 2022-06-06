@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class = "PatchOperationReplace">
+	<xpath>Defs/RitualOutcomeEffectDef[defName="Execution"]/outcomeChances/li[label="Awkward"]/chance</xpath>
+	<value>
+		<chance>0.0</chance>
+	</value>
+</Operation>
+
+<Operation Class = "PatchOperationReplace">
+	<xpath>Defs/RitualOutcomeEffectDef[defName="Execution"]/outcomeChances/li[label="Satisfying"]/chance</xpath>
+	<value>
+		<chance>0.75</chance>
+	</value>
+</Operation>
+
+<Operation Class = "PatchOperationReplace">
+	<xpath>Defs/RitualOutcomeEffectDef[defName="Execution"]/outcomeChances/li[label="Spectacular"]/chance</xpath>
+	<value>
+		<chance>0.25</chance>
+	</value>
+</Operation>
+
+</Patch>
